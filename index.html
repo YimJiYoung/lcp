@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LCP - BEFORE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" onload="this.onload=null;this.rel='stylesheet'"> 
-    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="noto-sans-kr.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="image" media="(max-width:640px)" href="https://naradesign.github.io/html5/img/small.avif">
+    <link rel="preload" as="image" media="(min-width:641px)" href="https://naradesign.github.io/html5/img/large.avif">
     <style>
         body { font-family: 'Noto Sans KR', sans-serif; }
         .img {
@@ -31,7 +32,7 @@
         <source srcset="https://naradesign.github.io/html5/img/small.webp" type="image/webp" media="(max-width:640px)">
         <source srcset="https://naradesign.github.io/html5/img/large.webp" type="image/webp">
         <source srcset="https://naradesign.github.io/html5/img/small.jpg" type="image/jpeg" media="(max-width:640px)">
-        <img class="img" src="https://naradesign.github.io/html5/img/large.jpg" alt="">
+        <img class="img" src="https://naradesign.github.io/html5/img/large.jpg" decoding="async" alt="">
     </picture>
     <p class="space">...</p>
     <picture>
